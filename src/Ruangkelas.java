@@ -87,4 +87,10 @@ private int Jumlah_jendela;
     public static void main(String[] args) {
         
     }
+    public void hitung(){
+        float Luas;
+        Luas = Panjang_ruang*Lebar_ruang;
+        float Rasio;
+        Rasio = Luas/Jumlah_kursi;
+    }
 }
