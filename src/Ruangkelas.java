@@ -83,7 +83,6 @@ private int Jumlah_jendela;
         this.Jumlah_jendela = Jumlah_jendela;
     }
     
-   
     public static void main(String[] args) {
         
     }
