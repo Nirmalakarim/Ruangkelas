@@ -87,10 +87,22 @@ private int Jumlah_jendela;
     public static void main(String[] args) {
         
     }
-    public void hitung(){
-        float Luas;
-        Luas = Panjang_ruang*Lebar_ruang;
-        float Rasio;
-        Rasio = Luas/Jumlah_kursi;
+    
+    double Luas(){
+return Panjang_ruang*Lebar_ruang;
+}
+double Rasio(){
+return Luas()/Jumlah_kursi;
     }
+
+    void Bentuk(){
+      if(Panjang_ruang==Lebar_ruang){
+         System.out.print ("Bentuknya Persegi");
+        }
+        else
+        {
+            System.out.print("Bentuknya Bukan Persegi");
+        }   
+    }
+    
 }
